@@ -246,7 +246,8 @@ func (app *BaseApp) Bootstrap() error {
 	// we don't check for an error because the db migrations may
 	// have not been executed yet.
 	app.RefreshSettings()
-
+	
+	
 	return nil
 }
 
